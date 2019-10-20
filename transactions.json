@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "description": "appetizer",
+    "amount": 15
+  },
+  {
+    "id": 2,
+    "description": "filter",
+    "amount": 52
+  }
+]

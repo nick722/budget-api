@@ -1,8 +1,9 @@
 const express = require("express");
+const json = require("./transactions");
 const app = express();
 
-app.get("/url", (req, res, next) => {
-  res.json(["Tofu", "List", "Microphone", "Ginger", "Food"]);
+app.get("/transactions", (req, res, next) => {
+  res.send(json);
 });
 
 app.listen(3001, () => {
