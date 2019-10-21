@@ -3,6 +3,7 @@ const json = require("./transactions");
 const app = express();
 
 app.get("/transactions", (req, res, next) => {
+  res.set("Access-Control-Allow-Origin", "*");
   res.send(json);
 });
 
